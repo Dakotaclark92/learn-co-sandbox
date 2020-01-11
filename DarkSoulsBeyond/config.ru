@@ -1,5 +1,5 @@
 require 'sinatra'
 
-require_relative './app/controllers/Dark_Souls_Beyond.rb'
+require_relative './app/controllers/Application_Controller.rb'
 
-run DarkSoulsBeyond
+run ApplicationController
