@@ -87,7 +87,7 @@ DEPENDENCIES
   sinatra
   sinatra-activerecord
   sinatra-flash
-  sqlite3
+  sqlite3 (~> 1.4.2)
   thin
   tux
 
