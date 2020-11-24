@@ -1,5 +1,3 @@
-require 'sinatra'
+require_relative 'config/environment'
 
-require_relative './app.rb'
-
-run MyToDoApp
+run Rails.application
